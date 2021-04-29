@@ -1,0 +1,81 @@
+@import './reset';
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background: $color1;
+  height: 100vh;
+  width: 100vw;
+
+.box {
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid $color2;
+  height: 80%;
+  width: 90%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.text1 {
+  margin: 20px 20px;
+
+  p {
+    line-height: 2.6;  
+    color: $color2;
+  }
+}
+
+.text2{
+  float: right;
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+
+  p {
+    line-height: 2.6;  
+    color: $color2;
+
+  }
+}
+
+.title {
+  position: absolute;
+  box-sizing: border-box;
+  border: 1px solid $color2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: $color2;
+
+  h3 {
+    color: $color1;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .text1, .text2 {
+    text-align: center;
+  
+}
+
+.text1 {
+  margin-top: 100px;
+}
+
+.text2 {
+  float:unset;
+}
+}
+}

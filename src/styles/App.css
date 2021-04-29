@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+*,
+html,
+body,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: green;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App .box {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid white;
+  height: 80%;
+  width: 90%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.App .text1 {
+  margin: 20px 20px;
+}
+
+.App .text1 p {
+  line-height: 2.6;
+  color: white;
+}
+
+.App .text2 {
+  float: right;
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.App .text2 p {
+  line-height: 2.6;
+  color: white;
+}
+
+.App .title {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: white;
+}
+
+.App .title h3 {
+  color: green;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .App .text1, .App .text2 {
+    text-align: center;
+  }
+  .App .text1 {
+    margin-top: 100px;
+  }
+  .App .text2 {
+    float: unset;
+  }
+}
+/*# sourceMappingURL=App.css.map */
